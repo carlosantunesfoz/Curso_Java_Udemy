@@ -2,6 +2,8 @@ package Ex_04_for;
 
 import java.util.Scanner;
 
+//Descrição: Programa para mostrar os números impares até
+//o final do número de entrada manual;
 public class ex01 {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);

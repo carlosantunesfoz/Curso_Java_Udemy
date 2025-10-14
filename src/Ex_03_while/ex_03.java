@@ -2,6 +2,8 @@ package Ex_03_while;
 
 import java.util.Scanner;
 
+//Descrição: programa para calcular qual a preferencia de usuarios
+//na hora do abastecimento; Sendo finalizado quando o código for "4"
 public class ex_03 {
 
 	public static void main(String[] args) {

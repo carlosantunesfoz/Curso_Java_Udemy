@@ -2,6 +2,8 @@ package Exercicios_02;
 
 import java.util.Scanner;
 
+
+//calcular a area
 public class ex_02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

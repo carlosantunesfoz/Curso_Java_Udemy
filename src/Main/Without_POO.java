@@ -2,6 +2,9 @@ package Main;
 
 import java.util.Scanner;
 
+//Exercicio de calcular a área de dois triangulos
+//e exebir o maior entre eles
+//Aprovetei para testar e aplicar o uso de funções;
 public class Without_POO {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);

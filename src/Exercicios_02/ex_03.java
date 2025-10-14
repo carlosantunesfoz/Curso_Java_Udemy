@@ -2,6 +2,7 @@ package Exercicios_02;
 
 import java.util.Scanner;
 
+//diferença entre A + B e C + D
 public class ex_03 {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);

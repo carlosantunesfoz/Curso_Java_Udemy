@@ -2,7 +2,7 @@ package Exercicios_02;
 
 import java.util.Scanner;
 
-
+//calculos matematicos com as variaveis especificando o tipo de calculo
 public class ex_06 {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);

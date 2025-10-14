@@ -2,6 +2,8 @@ package Ex_03_while;
 
 import java.util.Scanner;
 
+//Descrição: Algoritmo será encerrado quando pelo 
+//menos uma de duas coordenadas for NULA
 public class ex_02 {
 	public static void main(String [] args) {
 		Scanner sc = new Scanner(System.in);

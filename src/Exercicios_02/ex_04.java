@@ -2,6 +2,8 @@ package Exercicios_02;
 
 import java.util.Scanner;
 
+
+//calculo de salário com base no tempo x salario por tempo
 public class ex_04 {
 
 	public static void main (String[] args) {
