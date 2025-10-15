@@ -8,12 +8,19 @@ public class Estoque {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		estoqueEntity produto = new estoqueEntity();
-		
 		System.out.println("Insira os dados do produto: ");
-		produto.nome = sc.next();
-		produto.preço = sc.nextDouble();
-		produto.quantidade = sc.nextInt();
+		String nome = sc.next();
+		double preço = sc.nextDouble();
+		int quantidade = sc.nextInt();
+		
+		estoqueEntity produto = new estoqueEntity(nome, preço);//Aqui obrigado
+		//o programador a inserir os dados nos campos e evitar que sejam vazios
+		
+		produto.setName("novo nome");
+		System.out.println("Novo nome" + produto.getName());
+		produto.setPreço(1200);
+		System.out.println("novo valor" + produto.getPreço());
+		
 		
 		System.out.println(produto);
 		
