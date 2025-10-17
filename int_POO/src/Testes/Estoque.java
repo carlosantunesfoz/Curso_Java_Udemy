@@ -25,14 +25,14 @@ public class Estoque {
 		System.out.println(produto);
 		
 		System.out.println("Adcione ao estoque");
-		int qtd = sc.nextInt();
-		produto.addQuantidade(qtd);
+		quantidade = sc.nextInt();
+		produto.addQuantidade(quantidade);
 		
 		System.out.println(produto);
 		
 		System.out.println("remova produtos");
-		qtd = sc.nextInt();
-		produto.removeQuantidade(qtd);
+		quantidade = sc.nextInt();
+		produto.removeQuantidade(quantidade);
 		
 		System.out.println(produto);
 		
